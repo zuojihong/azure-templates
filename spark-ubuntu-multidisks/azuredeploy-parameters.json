@@ -1,0 +1,27 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "storageAccountNamePrefix": {
+      "value": "sparkclusterstor"
+    },
+    "adminUsername": {
+      "value": "azureuser"
+    },
+    "region": {
+      "value": "Southeast Asia"
+    },
+    "adminPassword": {
+      "value": "magic97~!@"
+    },
+    "domainName": {
+      "value": "sparkcluster"
+    },
+    "sparkversion": {
+      "value": "1.4.1"
+    },
+    "jumpbox": {
+      "value": "Enabled"
+    }
+  }
+}
